@@ -1,0 +1,200 @@
+
+	Country Hiszpania("Hiszpania", 2, 0);
+	Country Francja("Francja", 3, 1);
+	Country Niemcy("Niemcy", 4, 2);
+	Country Dania("Dania", 4, 2);
+	Country Holandia("Holandia", 3, 2);
+	Country Belgia("Belgia", 3, 2);
+	Country Luksemburg("Luksemburg", 3, 2);
+	Country Szwajcaria("Szwajcaria", 4, 1);
+	Country Austria("Austria", 5, 1);
+	Country Brytania("Brytania", 3, 3);
+	Country Wlochy("Wlochy", 4, 0);
+	Country Liechtenstain("Liechtenstain", 4, 1);
+	Country Monako("Monako", 3, 0);
+	Country Szwecja("Szwecja", 5, 3);
+	Country Norwegia("Norwegia", 4, 4);
+	Country Finlandia("Finlandia", 6, 4);
+	Country Czechy("Czechy", 5, 2);
+	Country Estonia("Estonia", 5, 2);
+	Country Lotwa("Lotwa", 6, 3);
+	Country Litwa("Litwa", 6, 3);
+	Country Bialorus("Bialorus", 6, 3);
+	Country Wegry("Wegry", 5, 1);
+	Country Slowenia("Slowenia", 5, 0);
+	Country Chorwacja("Chorwacja", 5, 0);
+	Country Macedonia("Macedonia", 6, 0);
+	Country Serbia("Serbia", 6, 1);
+	Country Czarnogora("Czarnogora", 6, 0);
+	Country Rumunia("Rumunia", 6, 1);
+	Country Moldawia("Moldawia", 6, 1);
+	Country Albania("Albania", 6, 0);
+	Country Grecja("Grecja", 6, 0);
+	Country Turcja("Turcja", 7, 0);
+	Country Slowacja("Slowacja", 5, 2);
+	Country BiH("Bosnia i Hercegowina", 5, 0);
+
+
+	//Rumunia Moldawia//
+	City Kiszyniow("Kiszyniow", 47, 28, Moldawia);
+	City Bukareszt("Bukareszt", 44, 26, Rumunia);
+	City Kluz_Napoka("Kluz-Napoka", 47, 23, Rumunia);
+
+
+
+	//Austria//
+	City Wieden("Wieden", 48, 16, Austria);
+	City Graz("Graz", 47, 15, Austria);
+	City Innsbruck("Innsbruck", 47, 11, Austria);
+
+	//Liechtenstein//
+	City Vaduz("Vaduz", 47, 9, Liechtenstain);
+
+	//Szwajcaria//
+	City Zurych("Zurych", 47, 8, Szwajcaria);
+	City Berno("Berno", 47, 7, Szwajcaria);
+	City Genewa("Genewa", 46, 6, Szwajcaria);
+
+	//Luksemburg//
+	City Luxemburg("Luksemburg", 49, 6, Luksemburg);
+
+	//Belgia//
+	City Bruksela("Bruksela", 50, 4, Belgia);
+	City Antwerpia("Antwerpia", 51, 4, Belgia);
+
+	//Holandia//
+	City Rotterdam("Rotterdam", 52, 4, Holandia);
+	City Amsterdam("Amsterdam", 52, 5, Holandia);
+
+	//Niemcy//
+	City Hamburg("Hamburg", 53, 10, Niemcy);
+	City Berlin("Berlin", 52, 13, Niemcy);
+	City Drezno("Drezno", 51, 13, Niemcy);
+	City Monachium("Monachium", 48, 11, Niemcy);
+	City Stuttgart("Stuttgart", 49, 9, Niemcy);
+	City Frankfurt("Frankfurt", 50, 8, Niemcy);
+	City Kolonia("Kolonia", 51, 7, Niemcy);
+
+	//Dania//
+	City Kopenhaga("Kopenhaga", 55, 12, Dania);
+
+	//Szwecja//
+	City Malmo("Malmo", 55, 13, Szwecja);
+	City Sztokholm("Sztokholm", 59, 18, Szwecja);
+
+	//Norwegia//
+	City Oslo("Oslo", 60, 10, Norwegia);
+	City Bergen("Bergen", 60, 5, Norwegia);
+	City Trondheim("Trondheim", 63, 10, Norwegia);
+	City Narwik("Narwik", 68, 17, Norwegia);
+
+	//Finlandia//
+	City Helsinki("Helsinki", 60, 25, Finlandia);
+
+	//Estonia//
+	City Tallin("Tallin", 59, 25, Estonia);
+
+	//Lotwa//
+	City Ryga("Ryga", 57, 24, Lotwa);
+
+	//Litwa//
+	City Wilno("Wilno", 54, 25, Litwa);
+	City Kowno("Kowno", 55, 24, Litwa);
+
+	//Bialorus//
+	City Minsk("Minsk", 54, 27, Bialorus);
+
+
+	City Budapeszt("Budapeszt", 47, 19, Wegry);
+	City Balaton("Balaton", 47, 18, Wegry);
+
+	//Slowenia//
+	City Maribor("Maribor", 46, 15, Slowenia);
+	City Lublana("Lublana", 46, 14, Slowenia);
+
+	//Chorwacja//
+	City Zagrzeb("Zagrzeb", 46, 16, Chorwacja);
+	City Karlovac("Karlovac", 45, 15, Chorwacja);
+	City Rijeka("Rijeka", 45, 14, Chorwacja);
+	City Pula("Pula", 44, 14, Chorwacja);
+	City Zadar("Zadar", 44, 15, Chorwacja);
+	City Sziberik("Sziberik", 43, 15, Chorwacja);
+	City Split("Split", 43, 16, Chorwacja);
+	City Fazana("Fazana", 44, 13, Chorwacja);
+	City Pakostane("Pakostane", 44, 16, Chorwacja);
+	City Dubrownik("Dubrownik", 42, 18, Chorwacja);
+
+	City Sarajewo("Sarajewo", 43, 18, BiH);
+	City BanjaLuka("Banja Luka", 44, 17, BiH);
+
+	City Belgrad("Belgrad", 45, 20, Serbia);
+	City Prisztina("Prisztina", 42, 21, Serbia);
+
+	City Podgorica("Podgorica", 42, 19, Czarnogora);
+
+	City Tirana("Tirana", 41, 20, Albania);
+
+	City Skopje("Skopje", 42, 21, Macedonia);
+
+	City Sofia("Sofia", 42, 23, Bialorus);
+
+	//Grecja//
+	City Korfu("Korfu", 39, 19, Grecja);
+	City Saloniki("Saloniki", 40, 23, Grecja);
+	City Ateny("Ateny", 38, 23, Grecja);
+	City Korynt("Korynt", 37, 23, Grecja);
+	City Sparta("Sparta", 37, 22, Grecja);
+	City Kreta("Kreta", 35, 24, Grecja);
+
+	City Stambul("Stambul", 41, 29, Turcja);
+
+	//Francja//
+	City Lyon("Lyon", 45, 4, Francja);
+	City Paryz("Paryz", 49, 2, Francja);
+	City Nantes("Nantes", 47, -1, Francja);
+	City Bordeaux("Bordeaux", 45, 0, Francja);
+	City Tuluza("Tuluza", 43, 1, Francja);
+	City Montpellier("Montpellier", 43, 4, Francja);
+	City Marsylia("Marsylia", 43, 5, Francja);
+	City Nicea("Nicea", 43, 7, Francja);
+	City Monaco("Monako", 43, 8, Francja);
+
+	//Brytania//
+	City Londyn("Londyn", 51, 0, Brytania);
+	City Liverpool("Liverpool", 53, -3, Brytania);
+	City Manchester("Manchester", 53, -2, Brytania);
+	City Glasgow("Glasgow", 55, -4, Brytania);
+	City Edynburg("Edynburg", 56, -3, Brytania);
+	City Belfast("Belfast", 54, -6, Brytania);
+	City Dublin("Dublin", 53, -6, Brytania);
+	City Cardiff("Cardiff", 51, -3, Brytania);
+
+	//Wlochy//
+	City Turyn("Turyn", 45, 8, Wlochy);
+	City Mediolan("Mediolan", 45, 10, Wlochy);
+	City Genua("Genua", 44, 9, Wlochy);
+	City Bolonia("Bolonia", 44, 11, Wlochy);
+	City San_Marino("San Marino", 44, 12, Wlochy);
+	City Florencja("Florencja", 43, 11, Wlochy);
+	City Rzym("Rzym", 42, 12, Wlochy);
+	City Neapol("Neapol",41,14,Wlochy);
+	City Bari("Bari", 41, 17, Wlochy);
+	City Sycylia("Sycylia", 37, 14, Wlochy);
+
+	//Hiszpania//
+	City Andora("Andora", 41, 1, Hiszpania);
+	City Barcelona("Barcelona", 41, 2, Hiszpania);
+	City Saragossa("Saragossa", 41, -1, Hiszpania);
+	City Madryt("Madryt", 40, -3, Hiszpania);
+	City Bilbao("Bilbao",43,-3, Hiszpania);
+	City Walencja("Walencja", 39, 0, Hiszpania);
+	City Murcja("Murcja", 38, -1, Hiszpania);
+	City Malaga("Malaga", 36, -4, Hiszpania);
+	City Sewilla("Sewilla", 37, -6, Hiszpania);
+	City Gibraltar("Gibraltar", 36, -5, Hiszpania);
+
+
+	Country Portugalia("Portugalia", 1, 0);
+	//Portugalia
+	City Lizbona("Lizbona", 38, -9, Portugalia);
+	City Porto("Porto", 41, -8, Portugalia);
